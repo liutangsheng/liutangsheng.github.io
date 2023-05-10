@@ -4,7 +4,7 @@
 ## 什么是MediaSession
 Media Session框架是google在android5之后引入的一个音乐播放框架，使用Client/Server架构；用来解决音乐控制界面和播放服务之间的通信问题，具体通信方式如下图所示：
 
-![image](https://github.com/liutangsheng/liutangsheng.github.io/blob/main/docs/_posts/image/WeChat708f19e87a13af124161c06921ab0751.png)
+![image]({{site.url}}/assets/images/WeChat708f19e87a13af124161c06921ab0751.png)
 
 
 ## 如何使用
@@ -343,7 +343,7 @@ inner class QueueNavigator(
 
 以下流程图演示了如何管理服务的生命周期。可变的计数器跟踪绑定的客户端数量：
 
-![service-lifecycle](https://github.com/liutangsheng/liutangsheng.github.io/blob/main/docs/_posts/image/service-lifecycle.png)
+![service-lifecycle]({{site.url}}/assets/images/service-lifecycle.png)
 ## 参考
 
 * [Android 媒体应用架构指南](https://developer.android.com/guide/topics/media-apps/audio-app/building-an-audio-app?hl=zh-cn)
